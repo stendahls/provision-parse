@@ -1,0 +1,40 @@
+{
+  "name": "@stendahls/provision-parse",
+  "version": "1.0.0",
+  "description": "parse .mobileprovision(iOS) and .provisionprofile(OS X) files",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stendahls/provision-parse"
+  },
+  "keywords": [
+    "ipa",
+    "ios",
+    "provisioning profile",
+    "mobile provisioning",
+    "mobileprovision",
+    "provisionprofile"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stendahls/provision-parse/issues"
+  },
+  "homepage": "https://github.com/stendahls/provision-parse",
+  "dependencies": {
+    "@stendahls/cert-downloader": "^1.0.0",
+    "simple-plist": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "proxyquire": "^2.1.0"
+  }
+}
