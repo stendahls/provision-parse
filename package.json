@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/stendahls/provision-parse",
   "dependencies": {
-    "@stendahls/cert-downloader": "^1.0.0",
+    "@stendahls/cert-downloader": "^2.0.0",
     "simple-plist": "^1.0.0"
   },
   "devDependencies": {
