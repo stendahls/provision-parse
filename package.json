@@ -34,7 +34,7 @@
     "simple-plist": "^1.0.0"
   },
   "devDependencies": {
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "proxyquire": "^2.1.0"
   }
 }
